@@ -83,3 +83,19 @@ function startGame() {
         checkCardMatch();
     }
 }
+
+/**
+checking if firstCard & secondCard 'data-id' 
+in this case data-image id are a match
+*/
+
+function checkCardMatch() {
+    let isMatch = firstCard.dataset.image === secondCard.dataset.image;
+    if (isMatch) perfectMatch += 1;
+    //if match call pairMatch function
+    if (isMatch) pairMatch();
+    //if no match call noMatch function
+    else noMatch();
+    //if this match equal MAX_MATCH value call winGame function
+    if (perfectMatch === MAX_MATCH) completeGame();
+}
