@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+/* Start Page*/
+#start-page {
+    color: white;
+    background-color: green;
+    width: 80%;
+    height: 80%;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 150px;
+    margin-left: 180px;
+    margin-bottom: 250px;
+
+}
+
+#start-page h1 {
+    margin-bottom: 20px;
+    font-size: 50px;
+}
+
+#instructions h2 {
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+#instructions p {
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+.rules li {
+    margin: 10px;
+    text-align: center;
+    font-size: 20px;
+
+}
+
