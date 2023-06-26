@@ -50,3 +50,36 @@ startBtn.addEventListener('click', () => {
     gameBoard.style.display = 'block';
     startGame();
 });
+
+// Using cards const listen for click
+cards.forEach(card => card.addEventListener('click', startGame));
+shuffle();
+
+/**
+* startGame function
+*/
+
+function startGame() {
+    if (!gameOn) {
+        gameOn = true;
+        timer();
+    }
+    // prevent more than 2 cards from flipping at the same time
+    if (lockBoard) return;
+    // check if current clicked card is equal to first card
+    if (this === firstCard) return;
+    // this refers to respective div.card element
+    // append class of "flip" to all items of cards array
+    this.classList.add('flip');
+    // The first card clicked
+    if (!flippedCard) {
+        flippedCard = true;
+        //stores this as first card
+        firstCard = this;
+    } else {
+        //second card clicked
+        secondCard = this;
+        // call the checkCardMatch function     
+        checkCardMatch();
+    }
+}
