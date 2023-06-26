@@ -222,4 +222,36 @@ p {
     width: 30em;
 }
 
+/*----- Footer ----->*/
+
+/*footer height*/
+
+footer {
+    height: 10px;
+    padding: 0px;
+}
+
+/* footer contact details */
+
+.social-networks {
+    text-align: center;
+    background-color: green;
+}
+
+.social-networks li {
+    display: inline;
+
+}
+
+.social-networks i {
+    font-size: 160%;
+    margin: .10%;
+    padding: .25%;
+    color: white;
+}
+
+.company-name {
+    background-color: green;
+    color: white;
+}
 
