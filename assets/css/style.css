@@ -259,6 +259,11 @@ footer {
 /* for extra small devices */
 
 @media only screen and (max-width: 600px) {
+    #start-page {
+            width: 100vw;
+            grid-gap: 5px;
+            margin: 50px auto;
+        }
 
     .modal {
         margin: 0;
