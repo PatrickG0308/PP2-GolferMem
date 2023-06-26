@@ -176,4 +176,12 @@ function stopTime() {
     clearInterval(time);
 }
 
+/**
+ * unlock board, unflip cards
+ */
+
+function resetBoard() {
+    [flippedCard, lockBoard] = [false, false];
+    [firstCard, secondCard] = [null, null];
+}
 
