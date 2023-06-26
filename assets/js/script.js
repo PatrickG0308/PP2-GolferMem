@@ -111,3 +111,18 @@ function pairMatch() {
     secondCard.removeEventListener('click', startGame);
     resetBoard();
 }
+
+/**
+ *  if no match, unflip cards after 1 sec
+ */
+
+function noMatch() {
+    lockBoard = true;
+
+    setTimeout(() => {
+        firstCard.classList.remove('flip');
+        secondCard.classList.remove('flip');
+
+        resetBoard();
+    }, 1000);
+
