@@ -99,3 +99,15 @@ function checkCardMatch() {
     //if this match equal MAX_MATCH value call winGame function
     if (perfectMatch === MAX_MATCH) completeGame();
 }
+
+/**
+ * cards that are matched will have 'click' listener disabled
+ * preventing cards from unflipping
+ */
+
+function pairMatch() {
+
+    firstCard.removeEventListener('click', startGame);
+    secondCard.removeEventListener('click', startGame);
+    resetBoard();
+}
