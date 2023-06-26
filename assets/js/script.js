@@ -185,3 +185,34 @@ function resetBoard() {
     [firstCard, secondCard] = [null, null];
 }
 
+/**
+ * game complete show time and finish message
+ */
+
+function completeGame() {
+    stopTime();
+    showFinishMessage();
+}
+
+/**
+ * message displayed on game completion showing
+ * time taken and number of moves
+ */
+
+function showFinishMessage() {
+    modal.style.display = "block";
+    finalTime = timeContainer.innerHTML;
+    document.getElementById("finalMove").innerHTML = moves;
+    document.getElementById("totalTime").innerHTML = finalTime;
+    reset();
+}
+
+// when the user clicks the (x) modal is closed
+
+window.onclick = function (event) {
+    if (event.target.id == 'close') {
+        document.getElementById('modal').style.display = "none";
+    }
+};
+
+
