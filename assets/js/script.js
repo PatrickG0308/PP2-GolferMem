@@ -143,4 +143,37 @@ function addMove() {
     moveContainer.innerHTML = moves;
 }
 
+// declared timer variables
+let time;
+let minutes = 0;
+let seconds = 0;
+let timeStart = false;
+
+// display "Time" with value 0 for minutes : 0 for seconds
+timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
+
+/**
+ * add one to the seconds until it is equal to 59
+ * then add one to the minutes. display format 0:00
+ */
+
+function timer() {
+    time = setInterval(function () {
+        seconds++;
+        if (seconds === 59) {
+            minutes++;
+            seconds = 0;
+        }
+        timeContainer.innerHTML = "Time " + minutes + " : " + seconds;
+    }, 1000);
+}
+
+/**
+ * clears timer set with the setInterval() method.
+ */
+
+function stopTime() {
+    clearInterval(time);
+}
+
 
