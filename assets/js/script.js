@@ -126,3 +126,21 @@ function noMatch() {
         resetBoard();
     }, 1000);
 
+    // call addMove function to add to moves counter 
+    addMove();
+}
+
+//Move counter
+moves = 0;
+moveContainer.innerHtml = 0;
+
+/**
+ * add one to move counter if no match
+ */
+
+function addMove() {
+    moves++;
+    moveContainer.innerHTML = moves;
+}
+
+
