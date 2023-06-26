@@ -215,4 +215,15 @@ window.onclick = function (event) {
     }
 };
 
+/**
+ * shuffle cards after completion
+ */
+
+function shuffle() {
+    cards.forEach(cards => {
+        let randomPosition = Math.floor(Math.random() * 16);
+        cards.style.order = randomPosition;
+    });
+
+}
 
