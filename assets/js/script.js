@@ -227,3 +227,30 @@ function shuffle() {
 
 }
 
+// Listen for click on Game reset button call reset function
+
+resetBtn.addEventListener('click', reset);
+
+/**
+ * resets all counters removes flips and shuffles
+ * cards ready for new game
+ */
+
+function reset() {
+    setTimeout(() => {
+        flippedCard = false;
+        [firstCard, secondCard] = [null, null];
+        stopTime();
+        gameOn = false;
+        timeStart = false;
+        seconds = 0;
+        minutes = 0;
+        timeContainer.innerHTML = "Timer 0:00";
+        moves = 0;
+        moveContainer.innerHTML = 0;
+        perfectMatch = 0;
+        cards.forEach(cardReset => cardReset.classList.remove('flip'));
+        shuffle();
+        cards.forEach(card => card.addEventListener('click', startGame));
+    }, 500);
+}
