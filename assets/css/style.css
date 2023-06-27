@@ -73,6 +73,7 @@
     -o-background-size: cover;
     background-size: cover;
     min-height: 100vh;
+    
 }
 
 .page-title {
@@ -80,7 +81,8 @@
     font-family: Arial, Helvetica, sans-serif;
     font-weight: normal;
     text-align: center;
-    font-size: 25px;
+    font-size: 50px;
+    
 }
 
 .game-info-container {
@@ -88,11 +90,13 @@
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
+    
 }
 
 .game-info {
     color: white;
     font-size: 25px;
+    
 }
 
 .game-container {
@@ -101,6 +105,7 @@
     grid-template-columns: repeat(4, auto);
     grid-gap: 5px;
     justify-content: center;
+    
 
 }
 
@@ -236,7 +241,13 @@ footer {
 .social-networks {
     text-align: center;
     background-color: green;
+    
 }
+
+.social-networks p {
+    color: white;
+}
+
 
 .social-networks li {
     display: inline;
@@ -255,84 +266,3 @@ footer {
     color: white;
 }
 
-/* Media Queries */
-/* for extra small devices */
-
-@media only screen and (max-width: 600px) {
-    #start-page {
-            width: 100vw;
-            grid-gap: 5px;
-            margin: 50px auto;
-        }
-
-    .modal {
-        margin: 0;
-    }
-
-    .modal-content {
-        margin: 20px 20px 40px;
-        padding: 20px;
-    }
-
-    .modal-img {
-        width: 10em;
-    }
-
-    p {
-        font-size: 16px;
-        padding-bottom: 20px
-    }
-
-    .close {
-        font-size: 2.5em;
-        padding-bottom: 20px;
-    }
-
-    .page-title {
-        margin: 10px;
-        font-size: 2.5em;
-    }
-
-    .game-info-container {
-        padding: 0 15px;
-        font-size: 10px;
-    }
-
-    .game-info {
-        font-size: 2em;
-    }
-
-    .game-container {
-        width: 100vw;
-        grid-gap: 5px;
-        margin: 50px auto;
-    }
-
-    .memory-card {
-        height: 70px;
-        width: 70px;
-    }
-
-    .card-front,
-    .card-back {
-        padding: 3px;
-    }
-
-    .hero-btn {
-        font-size: 14px;
-    }
-}
-
-/* Media Queries */
-/* tablet size */
-
-@media (min-width: 768px) {
-    .game-container {
-        margin: 10px 0 40px;
-    }
-
-    .page-title {
-        font-size: 4em;
-        margin: 40px 20px;
-    }
-}
