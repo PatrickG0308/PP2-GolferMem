@@ -46,7 +46,7 @@ The site contains all necessary features of a simple, functioning memory card ga
 
 - **Game Area**
     - The main feature of the site
-    - A grid of 16 cards (8 matching pairs), depicting various world class golfers. 
+    - A grid of 12 cards (6 matching pairs), depicting various world class golfers. 
     - Cards appear face down at the start of the game.
     - On click, cards are turned face up. Matching pairs remain face up. Non-matching cards get flipped back face down.
 
