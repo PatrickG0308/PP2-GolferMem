@@ -20,7 +20,7 @@ const moveContainer = document.querySelector(".moves");
 const timeContainer = document.querySelector(".timer");
 
 // retrieve max number of matches required
-const MAX_MATCH = 8;
+const MAX_MATCH = 6;
 const modal = document.getElementById("modal");
 
 // state of game
