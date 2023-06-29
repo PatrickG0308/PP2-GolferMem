@@ -298,6 +298,10 @@ footer {
     .modal-img {
         width: 10em;
     }
+
+    .game-container {
+        grid-template-columns: repeat(3, auto);
+    }
 }
 
 
