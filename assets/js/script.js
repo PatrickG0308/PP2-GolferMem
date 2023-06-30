@@ -52,18 +52,7 @@ startBtn.addEventListener('click', () => {
 });
 
 // Using cards const listen for click
-cards.forEach(card => card.addEventListener('click', startGame));
-shuffle();
-
-/**
-* startGame function
-*/
-
-function startGame() {
-    if (!gameOn) {
-        gameOn = true;
-        timer();
-    }
+cards.forEach(card => card.addEventListener('click', function () {
     // prevent more than 2 cards from flipping at the same time
     if (lockBoard) return;
     // check if current clicked card is equal to first card
@@ -81,6 +70,20 @@ function startGame() {
         secondCard = this;
         // call the checkCardMatch function     
         checkCardMatch();
+    }
+
+}));
+
+shuffle();
+
+/**
+* startGame function
+*/
+
+function startGame() {
+    if (!gameOn) {
+        gameOn = true;
+        timer();
     }
 }
 
