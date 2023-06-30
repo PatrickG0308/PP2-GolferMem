@@ -23,121 +23,117 @@
 </head>
 
 <body>
-    <!-- Start Page Section-->
-    <section>
-        <div id="start-page" class="start-page">
-            <h1>Top Golfers Memory Game</h1>
-            <div id="instructions">
-                <h2>How to play</h2>
-                <ul class="rules">
-                    <li>To start the game, click on any card to flip it over.</li>
-                    <li>Only 2 cards can be flipped at a time.</li>
-                    <li>Cards will return to original position if match is not made</li>
-                    <li>10 matches are required to complete the game</li>
-                    <li>The challenge is to beat your best time, or quickest numbers of flips.</li>
-                </ul>
-                <p>Ready to play?</p>
-                <button id="start-btn">Tee off!</button>
+    <main>
+        <section>
+            <div id="start-page" class="start-page">
+                <header>
+                    <h1>Top Golfers Memory Game</h1>
+                </header>
+                <div id="instructions">
+                    <h2>How to play</h2>
+                    <ul class="rules">
+                        <li>To start the game, click on any card to flip it over.</li>
+                        <li>Only 2 cards can be flipped at a time.</li>
+                        <li>Cards will return to original position if match is not made</li>
+                        <li>10 matches are required to complete the game</li>
+                        <li>The challenge is to beat your best time, or quickest numbers of flips.</li>
+                    </ul>
+                    <p>Ready to play?</p>
+                    <button id="start-btn">Tee off!</button>
+                </div>
             </div>
-        </div>
-    </section>
-    <!-- Game Board Section-->
-    <section>
-        <div id="gameboard" class="gameboard">
-            <h1 class="page-title">Top Golfers Memory Game</h1>
-            <div class="game-container">
-                <div class="game-info-container">
-                    <div class="game-info">
-                        <span class="timer">Timer 0:00</span>
+        </section>
+
+        <!-- Game Board Section-->
+
+        <section>
+            <div id="gameboard" class="gameboard">
+                <h1 class="page-title">Top Golfers Memory Game</h1>
+                <div class="game-container">
+                    <div class="game-info-container">
+                        <div class="game-info">
+                            <span class="timer">Timer 0:00</span>
+                        </div>
+                        <div class="game-info"> Putts
+                            <span class="moves">0</span>
+                        </div>
                     </div>
-                    <div class="game-info"> Putts
-                        <span class="moves">0</span>
+
+                    <!-- Game cards -->
+
+                    <div class="memory-card" data-image="jordan">
+                        <img class="card-front" src="assets/images/jordan.jpg" alt="Jordan Spieth">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="jordan">
+                        <img class="card-front" src="assets/images/jordan.jpg" alt="Jordan Spieth">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="matt">
+                        <img class="card-front" src="assets/images/matt.jpg" alt="Matt Fitzpatrick">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="matt">
+                        <img class="card-front" src="assets/images/matt.jpg" alt="Matt Fitzpatrick">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="rory">
+                        <img class="card-front" src="assets/images/rory.jpg" alt="Rory McIlroy">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="rory">
+                        <img class="card-front" src="assets/images/rory.jpg" alt="Rory McIlroy">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="scottie">
+                        <img class="card-front" src="assets/images/scottie.jpg" alt="Scottie Scheffler">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="scottie">
+                        <img class="card-front" src="assets/images/scottie.jpg" alt="Scottie Scheffler">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="viktor">
+                        <img class="card-front" src="assets/images/viktor.jpg" alt="Viktor Hovland ">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="viktor">
+                        <img class="card-front" src="assets/images/viktor.jpg" alt="Viktor Hovland ">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="xander">
+                        <img class="card-front" src="assets/images/xander.jpg" alt="Xander Schauffele">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                    </div>
+                    <div class="memory-card" data-image="xander">
+                        <img class="card-front" src="assets/images/xander.jpg" alt="Xander Schauffele">
+                        <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
                     </div>
                 </div>
-                <!-- Game cards -->
 
-                <div class="memory-card" data-image="jordan">
-                    <img class="card-front" src="assets/images/jordan.jpg" alt="Jordan Spieth">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
+                <!-- Game Reset Button-->
 
-                <div class="memory-card" data-image="jordan">
-                    <img class="card-front" src="assets/images/jordan.jpg" alt="Jordan Spieth">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="matt">
-                    <img class="card-front" src="assets/images/matt.jpg" alt="Matt Fitzpatrick">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="matt">
-                    <img class="card-front" src="assets/images/matt.jpg" alt="Matt Fitzpatrick">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="rory">
-                    <img class="card-front" src="assets/images/rory.jpg" alt="Rory McIlroy">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="rory">
-                    <img class="card-front" src="assets/images/rory.jpg" alt="Rory McIlroy">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="scottie">
-                    <img class="card-front" src="assets/images/scottie.jpg" alt="Scottie Scheffler">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="scottie">
-                    <img class="card-front" src="assets/images/scottie.jpg" alt="Scottie Scheffler">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="viktor">
-                    <img class="card-front" src="assets/images/viktor.jpg" alt="Viktor Hovland ">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="viktor">
-                    <img class="card-front" src="assets/images/viktor.jpg" alt="Viktor Hovland ">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="xander">
-                    <img class="card-front" src="assets/images/xander.jpg" alt="Xander Schauffele">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
-                </div>
-
-                <div class="memory-card" data-image="xander">
-                    <img class="card-front" src="assets/images/xander.jpg" alt="Xander Schauffele">
-                    <img class="card-back" src="assets/images/golfflag.png" alt="Golf Flag">
+                <div>
+                    <button id="reset-btn">Reset Game</button>
                 </div>
             </div>
-            <!-- Game Reset Button-->
-            <div>
-                <button id="reset-btn">Reset Game</button>
+        </section>
+
+        <!--Game Complete Modal-->
+
+        <section>
+            <div class="modal" id="modal">
+                <div class="modal-content">
+                    <span id="close" class="close">&times;</span>
+                    <h2>Nice One!</h2>
+
+                    <p>You made <span id="finalMove"> </span> putts </p>
+                    <p>in a <span id="totalTime"> of </span> </p>
+                    <img class="modal-img" src="./assets/images/golferclap.webp" alt="Bryson DeChambeau Golfers Clap">
+                </div>
             </div>
-        </div>
-
-    </section>
-    <!--Game Complete Modal-->
-    <section>
-        <div class="modal" id="modal">
-            <div class="modal-content">
-                <span id="close" class="close">&times;</span>
-                <h2>Nice One!</h2>
-
-                <p>You made <span id="finalMove"> </span> putts </p>
-                <p>in a <span id="totalTime"> of </span> </p>
-                <img class="modal-img" src="./assets/images/golferclap.webp" alt="Bryson DeChambeau Golfers Clap">
-            </div>
-        </div>
-    </section>
-
-
+        </section>
+    </main>
     <!--Footer and Social Media links-->
     <footer>
         <div class="social-networks">
@@ -150,7 +146,6 @@
 
             <p>Website by take4granted web design &copy;</p>
         </div>
-
 
     </footer>
 
