@@ -223,8 +223,7 @@ window.onclick = function (event) {
 };
 
 /**
- * shuffle cards at start and after completion
- * of game
+ * shuffle cards at start and completion of game
  */
 
 function shuffle() {
