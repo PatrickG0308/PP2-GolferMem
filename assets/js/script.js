@@ -74,6 +74,10 @@ cards.forEach(card => card.addEventListener('click', function () {
 
 }));
 
+/**
+ * Call shuffle function prior to starting game
+ */
+
 shuffle();
 
 /**
@@ -219,7 +223,8 @@ window.onclick = function (event) {
 };
 
 /**
- * shuffle cards after completion
+ * shuffle cards at start and after completion
+ * of game
  */
 
 function shuffle() {
