@@ -188,12 +188,12 @@ The game is intended to be played over the course of a few minutes. It does not 
 | Be able to play the game with simple click interactions | Play the game by simply clicking on the cards in the game area |
 | See the time that has elapsed while playing the game | See a running timer above the card area for the duration of the game |
 | See a move counter recording the amount of clicks I perform | See the move counter increment by 1 each time I click an unmatched pair |
-| Be able to reset the game without reloading the page | Can click the reset button after completing a round and play the game again without reloading the game |
+| Be able to reset the game without reloading the page | Can click the reset button after completing a round and play the game again without reloading the page |
 | Be able to find the site's creator on social media | Can click on the social media icons in the footer on the start page which link me to the site creator's respective accounts in new tabs |
 
 ### Fixed bugs
 
-- bookmarking social media icons to open page
+- Bookmarking social media icons to open page
 - JavaScript console error on testing
 - Blip when clicking "Tee Off!" button
 
