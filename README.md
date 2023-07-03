@@ -37,6 +37,13 @@ The site contains all necessary features of a simple, functioning memory card ga
 
 ### Existing Features
 
+- **Favicon**
+    - A site wide favicon showing a golf ball on a tee. 
+    - This will provide an image in the the tabs header to allow the user to easily identify the website if they have multiple tabs open.	
+     	
+
+    ![favicon](assets/docs/features/favicon.jpg)
+
 - **Start Page with Start Game Button (Tee Off!)**
     - Displays when site first loads
     - Instructions on "How to Play" are displayed	
@@ -80,7 +87,14 @@ The site contains all necessary features of a simple, functioning memory card ga
    - Displays the total elapsed time to complete game
    - Displays GIF of Bryson DeChambeau performing a golfers clap.
 
-   ![game complete](assets/docs/features/game-complete.jpg)	
+   ![game complete](assets/docs/features/game-complete.jpg)
+
+- **404 Page** 
+   - A 404 page will be implemented and will display if a user navigates to a broken link.
+   - The 404 page will allow the user to easily navigate back to the main website if they direct to a broken link / missing page, without the need of the browsers back button.
+  
+
+   ![404 page](assets/docs/features/404.jpg)   
 
 
 
@@ -269,6 +283,8 @@ The project will now of been cloned on your local machine for use.
 - [Align-Self](https://developer.mozilla.org/en-US/docs/Web/CSS/align-self)
 
 - [Flex order property](https://marina-ferreira.github.io/tutorials/css/flexbox/#order)
+
+- [404 Page](https://marina-ferreira.github.io/tutorials/css/flexbox/#order)
 
 
 
