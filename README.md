@@ -263,7 +263,7 @@ The project will now of been cloned on your local machine for use.
 - Golfer images - https://www.owgr.com/current-world-ranking
 - Augusta National Golf Course image - https://golf.com/
 - Back Card image - https://www.pngall.com/
-- favicon - https://favicon.io/
+- favicon - https://kit.fontawesome.com/6342b55ea1.js
 - Social Media icons - https://kit.fontawesome.com/6342b55ea1.js
 - Golfer clap gif - https://giphy.com/
 
@@ -284,7 +284,7 @@ The project will now of been cloned on your local machine for use.
 
 - [Flex order property](https://marina-ferreira.github.io/tutorials/css/flexbox/#order)
 
-- [404 Page](https://marina-ferreira.github.io/tutorials/css/flexbox/#order)
+- [404 Page](https://www.youtube.com/watch?v=Jj42_s3KnuM&t=2s)
 
 
 
