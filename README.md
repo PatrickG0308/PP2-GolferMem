@@ -168,13 +168,13 @@ The game is intended to be played over the course of a few minutes. It does not 
 | :---------: | :----------:| :-----------: | :-----:|
 | **Start Page**  | Displays "How to Play" instructions and start ("Tee Off!") button and footer | Clicked link to Live site | Instructions on how to play appeared, Tee Off! button appeared, social media footer appeared
 | **Footer** | Displays Social Media Links as icons | Clicked  individual icons | Social Media link icons open relevant websites in new tab when clicked |
-| **Start Game Button**  | When clicked, the start page will close and the game starts with running timer and move counter  | Clicked Start Game button | Start Page closes, timer starts and game can be played while number of moves are counted and displayed |
+| **Start Game (Tee Off!) Button**  | When clicked, the start page will close and the game starts with running timer and move counter  | Clicked Start Game (Tee Off!) button | Start Page closes, timer starts and game can be played while number of moves are counted and displayed |
 | **Card flip** | When card is clicked, card flips over and shows image | Click card | Card flips and shows image |
 | **Card match** | Matching card pairs remain face up | Click cards until matching pair found | Matching pair remains face up |
 | **Card no-match** | Non-matching cards will flip back after 1 second | Click on non-matching cards | After 1 seconds, cards flip back face down |
 | **Timer** | Timer will start running on start of game and finish running on game completion | Start game / Complete game | Timer starts running / Timer stops running |
 | **Move counter** | Mover counter will imcrement by 1 each time there is a no match | Click cards | Move counter increments by 1 each time |
-| **Game completion** | On finding all matching cards modal will apear summarising Number of moves(putts) and time taken also gif of golfer performing golfers clap  | Complete game - find all matching cards | Modal appears summarising time and number of moves and gif of golfer performing golfers clap |
+| **Game completion** | On finding all matching cards, modal will appear summarising number of moves(putts) and time taken, also gif of golfer performing golfers clap  | Complete game - find all matching cards | Modal appears summarising time and number of moves (putts) and gif of golfer performing golfers clap |
 | **Reset button** | When clicked, will reset timer, move (putt) counter to 0 and flip cards back to original position,timer will not start until the first card is clicked  | Click reset button | Cards go back to start position ; timer, move counter start from 0, timer starts when first card is clicked|
 
 
