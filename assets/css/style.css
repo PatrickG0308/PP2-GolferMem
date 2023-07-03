@@ -269,6 +269,13 @@ footer {
     color: white;
 }
 
+.error-container {
+    text-align: center;
+    
+}
+
+
+
 /* Media Queries */
 /* for extra small devices*/
 
