@@ -166,7 +166,7 @@ The game is intended to be played over the course of a few minutes. It does not 
 
 | Feature     | Expect      | Action        | Result |
 | :---------: | :----------:| :-----------: | :-----:|
-| **Start Page**  | Displays "How to Play" instructions and start ("tee Off!") button and footer | Clicked link to Live site | Instructions on how to play appeared, Tee Off! button appeared, social media footer appeared
+| **Start Page**  | Displays "How to Play" instructions and start ("Tee Off!") button and footer | Clicked link to Live site | Instructions on how to play appeared, Tee Off! button appeared, social media footer appeared
 | **Footer** | Displays Social Media Links as icons | Clicked  individual icons | Social Media link icons open relevant websites in new tab when clicked |
 | **Start Game Button**  | When clicked, the start page will close and the game starts with running timer and move counter  | Clicked Start Game button | Start Page closes, timer starts and game can be played while number of moves are counted and displayed |
 | **Card flip** | When card is clicked, card flips over and shows image | Click card | Card flips and shows image |
