@@ -17,6 +17,7 @@ Link to [live site](https://patrickg0308.github.io/PP2-GolferMem/)
     - [User Stories](#user-stories)
 
 - [Testing](#testing)
+    - [Technology Used](#technologies)
     - [Validator Testing](#validator-testing)
     - [Browser Testing](#browser-testing)
     - [Manual Testing](#manual-testing)
@@ -136,8 +137,23 @@ The game is intended to be played over the course of a few minutes. It does not 
 - provide the user with my social media contacts
 - offer the user the chance to explore the code for the site
 
-
 ## Testing
+
+### Technologies
+- HTML
+    - The structure of the Website was developed using HTML as the main language.
+- CSS
+    - The Website was styled using custom CSS in an external file.
+- JavaScript
+    - Game functionality and automation developed using JavaScript
+- CodeAnywhere
+    - The website was developed using Visual Studio Code IDE https://app.codeanywhere.com/
+- GitHub
+    - Source code is hosted on GitHub and deployed using Git Pages.
+- Font Awesome
+    - Icons obtained from https://fontawesome.com/ 
+
+
 
 ### Validator Testing
 
