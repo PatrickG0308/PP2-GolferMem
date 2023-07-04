@@ -16,8 +16,9 @@ Link to [live site](https://patrickg0308.github.io/PP2-GolferMem/)
     - [Site Goals](#site-goals)
     - [User Stories](#user-stories)
 
-- [Testing](#testing)
-    - [Technology Used](#technologies)
+- [Technology Used](#technologies)
+
+- [Testing](#testing) 
     - [Validator Testing](#validator-testing)
     - [Browser Testing](#browser-testing)
     - [Manual Testing](#manual-testing)
@@ -137,9 +138,7 @@ The game is intended to be played over the course of a few minutes. It does not 
 - provide the user with my social media contacts
 - offer the user the chance to explore the code for the site
 
-## Testing
-
-### Technologies
+## Technologies
 - HTML
     - The structure of the Website was developed using HTML as the main language.
 - CSS
@@ -153,7 +152,7 @@ The game is intended to be played over the course of a few minutes. It does not 
 - Font Awesome
     - Icons obtained from https://fontawesome.com/ 
 
-
+## Testing
 
 ### Validator Testing
 
